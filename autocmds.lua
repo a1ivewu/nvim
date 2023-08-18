@@ -8,12 +8,8 @@ local function set_indent(indent)
   opt.shiftwidth = indent
 end
 
+-- set indentation
 autocmd("FileType", {
-  pattern = { "python" },
-  callback = function() set_indent(indent_length) end,
-})
-
-autocmd("FileType", {
-  pattern = { "go" },
+  pattern = { "python", "go" },
   callback = function() set_indent(indent_length) end,
 })
