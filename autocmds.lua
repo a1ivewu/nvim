@@ -8,8 +8,15 @@ local function set_indent(indent)
   opt.shiftwidth = indent
 end
 
+-- filetype that should be changed its indentation
+local should_change_indent = {
+  "go",
+  "java",
+  "python",
+}
+
 -- set indentation
 autocmd("FileType", {
-  pattern = { "python", "go" },
+  pattern = should_change_indent,
   callback = function() set_indent(indent_length) end,
 })
