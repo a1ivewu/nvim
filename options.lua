@@ -8,10 +8,11 @@ return {
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
 
+    tabstop = 2,
+    shiftwidth = 2,
     smarttab = true,
     expandtab = true,
-    shiftwidth = 4,
-    tabstop = 4,
+    shiftround = true,
   },
 
   g = {
