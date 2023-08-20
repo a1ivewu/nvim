@@ -5,7 +5,7 @@ local indent_length = 4
 
 -- set indentation
 autocmd("FileType", {
-  pattern = { "go", "python", "java" },
+  pattern = { "go" },
   callback = function()
     opt.tabstop = indent_length
     opt.softtabstop = indent_length

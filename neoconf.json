@@ -1,0 +1,22 @@
+{
+  "lspconfig": {
+    "lua_ls": {
+      "Lua.format.enable": false
+    },
+    "rust_analyzer": {
+      "rust-analyzer.lens.enable": false
+    },
+    "volar": {
+      "vue.autoInsert.bracketSpacing": true,
+      "vue.updateImportsOnFileMove.enabled": true
+    },
+    "tsserver": {
+      "javascript.updateImportsOnFileMove.enabled": "always",
+      "typescript.updateImportsOnFileMove.enabled": "always"
+    },
+    "pyright": {
+      "python.pythonPath": "~/develop/miniconda3/bin/python",
+      "python.venvPath": "~/develop/miniconda3/envs/"
+    }
+  }
+}
