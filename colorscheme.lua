@@ -1,2 +1,4 @@
 -- Set colorscheme to use
-return "everforest"
+
+return "catppuccin"
+-- return "everforest"

@@ -16,7 +16,31 @@
     },
     "pyright": {
       "python.pythonPath": "~/develop/miniconda3/bin/python",
-      "python.venvPath": "~/develop/miniconda3/envs/"
+      "python.venvPath": "~/develop/miniconda3",
+      "python.analysis.autoSearchPaths": true,
+      "python.analysis.diagnosticMode": "workspace",
+      "python.analysis.useLibraryCodeForTypes": true,
+      "python.analysis.typeCheckingMode": "off"
+    },
+    "tailwindcss": {
+      "tailwindCSS.classAttributes": [
+        "class",
+        "className",
+        "ngClass"
+      ],
+      "tailwindCSS.experimental.classRegex": [
+        "cva\\(([^)]*)\\)",
+        "[\"'`]([^\"'`]*).*?[\"'`]"
+      ],
+      "tailwindCSS.emmetCompletions": false,
+      "tailwindCSS.lint.cssConflict": "warning",
+      "tailwindCSS.lint.invalidApply": "error",
+      "tailwindCSS.lint.invalidConfigPath": "error",
+      "tailwindCSS.lint.invalidScreen": "error",
+      "tailwindCSS.lint.invalidTailwindDirective": "error",
+      "tailwindCSS.lint.invalidVariant": "error",
+      "tailwindCSS.lint.recommendedVariantOrder": "warning",
+      "tailwindCSS.validate": true
     }
   }
 }
