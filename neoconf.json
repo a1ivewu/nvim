@@ -15,8 +15,7 @@
       "typescript.updateImportsOnFileMove.enabled": "always"
     },
     "pyright": {
-      "python.pythonPath": "~/develop/miniconda3/bin/python",
-      "python.venvPath": "~/develop/miniconda3",
+      "python.venvPath": "~/develop/miniconda3/envs",
       "python.analysis.autoSearchPaths": true,
       "python.analysis.diagnosticMode": "workspace",
       "python.analysis.useLibraryCodeForTypes": true,

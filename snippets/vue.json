@@ -1,7 +1,7 @@
 {
     "setup": {
         "prefix": [
-            "vt"
+            "setup"
         ],
         "body": [
             "<script lang=\"ts\" setup>",
