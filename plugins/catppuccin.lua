@@ -1,5 +1,3 @@
-local color = "#000000"
-
 return {
   "catppuccin/nvim",
   name = "catppuccin",
@@ -10,9 +8,9 @@ return {
     term_colors = true,
     color_overrides = {
       mocha = {
-        base = color,
-        mantle = color,
-        crust = color,
+        base = "#000000",
+        mantle = "#000000",
+        crust = "#000000",
       },
     },
   },

@@ -8,6 +8,7 @@ return {
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
 
+    scroll = 10,
     tabstop = 2,
     shiftwidth = 2,
     smarttab = true,
@@ -25,13 +26,15 @@ return {
     ui_notifications_enabled = true, -- disable notifications when toggling UI elements
     resession_enabled = false, -- enable experimental resession.nvim session management (will be default in AstroNvim v4)
 
+    semantic_tokens_enabled = false, -- enabled LSP semantic highlighting
+
     -- everforest setup
     everforest_background = "hard",
     everforest_better_performance = 1,
     everforest_enable_italic = 0,
     everforest_disable_italic_comment = 1,
-    -- everforest_transparent_background = 2,
     everforest_diagnostic_line_highlight = 1,
+    -- everforest_transparent_background = 2,
   },
 }
 -- If you need more control, you can use the function()...end notation
