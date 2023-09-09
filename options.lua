@@ -27,14 +27,6 @@ return {
     resession_enabled = false, -- enable experimental resession.nvim session management (will be default in AstroNvim v4)
 
     semantic_tokens_enabled = false, -- enabled LSP semantic highlighting
-
-    -- everforest setup
-    everforest_background = "hard",
-    everforest_better_performance = 1,
-    everforest_enable_italic = 0,
-    everforest_disable_italic_comment = 1,
-    everforest_diagnostic_line_highlight = 1,
-    -- everforest_transparent_background = 2,
   },
 }
 -- If you need more control, you can use the function()...end notation

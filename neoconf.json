@@ -14,13 +14,6 @@
       "javascript.updateImportsOnFileMove.enabled": "always",
       "typescript.updateImportsOnFileMove.enabled": "always"
     },
-    "pyright": {
-      "python.venvPath": "~/develop/miniconda3/envs",
-      "python.analysis.autoSearchPaths": true,
-      "python.analysis.diagnosticMode": "workspace",
-      "python.analysis.useLibraryCodeForTypes": true,
-      "python.analysis.typeCheckingMode": "off"
-    },
     "tailwindcss": {
       "tailwindCSS.classAttributes": [
         "class",
