@@ -4,7 +4,9 @@
       "Lua.format.enable": false
     },
     "rust_analyzer": {
-      "rust-analyzer.lens.enable": false
+      "rust-analyzer.lens": false,
+      "rust-analyzer.inlayHints.typeHints.enable": true,
+      "rust-analyzer.inlayHints.closingBraceHints.enable": false
     },
     "volar": {
       "vue.autoInsert.bracketSpacing": true,
