@@ -8,7 +8,6 @@ return {
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
 
-    scroll = 10,
     tabstop = 2,
     shiftwidth = 2,
     smarttab = true,
@@ -27,6 +26,7 @@ return {
     resession_enabled = false, -- enable experimental resession.nvim session management (will be default in AstroNvim v4)
 
     semantic_tokens_enabled = true, -- enabled LSP semantic highlighting
+    inlay_hints_enabled = true, -- enabled Inlay Hints
   },
 }
 -- If you need more control, you can use the function()...end notation

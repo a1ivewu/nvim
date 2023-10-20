@@ -1,5 +1,5 @@
 {
-    "setup": {
+    "Vue Setup": {
         "prefix": [
             "setup"
         ],
@@ -13,7 +13,6 @@
             "</template>",
             "",
             "<style lang=\"scss\" scoped>",
-            "\t$3",
             "</style>",
             ""
         ],
