@@ -26,7 +26,7 @@ return {
     resession_enabled = false, -- enable experimental resession.nvim session management (will be default in AstroNvim v4)
 
     semantic_tokens_enabled = true, -- enabled LSP semantic highlighting
-    inlay_hints_enabled = true, -- enabled Inlay Hints
+    inlay_hints_enabled = true, -- enabled inlay_hints
   },
 }
 -- If you need more control, you can use the function()...end notation
