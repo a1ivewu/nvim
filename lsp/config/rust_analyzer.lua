@@ -3,7 +3,7 @@ return {
     ["rust-analyzer"] = {
       lens = { enable = false },
       inlayHints = {
-        parameterHints = { enable = false },
+        closingBraceHints = {enable=false}
       },
     },
   },
