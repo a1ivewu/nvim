@@ -1,6 +1,5 @@
 return {
-  { import = "astrocommunity.pack.typescript" },
-  { import = "astrocommunity.pack.prisma" },
+  { import = "astrocommunity.pack.typescript-all-in-one" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.tailwindcss" },
