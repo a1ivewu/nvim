@@ -3,7 +3,7 @@ return {
   opts = function(_, opts)
     return require("astronvim.utils").extend_tbl(opts, {
       window = {
-        position = "left",
+        position = "right",
         width = 30,
       },
       filesystem = {
